@@ -1,0 +1,204 @@
+/* BLUE.CSS */
+
+/* INTRO */
+
+.intro {
+    color: #ffffff;
+	background: url(../../img/bg-blue.jpg) no-repeat bottom center scroll;
+    background-color: #68bcde;
+}
+
+.brand-heading {
+	color:#ffffff;
+}
+
+.intro-text {
+	color:#68bcde;
+}
+
+/* INICIO */
+
+#inicio i {
+	color:#d5d5d5;
+	
+}
+
+#inicio i:hover {
+	color:#68bcde;
+}
+
+/* botones y logo */
+
+.fontColor{  
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+
+/* IMAGENES */
+
+img.color{  
+	background-color:#68bcde
+}
+
+/* INFO */
+
+#info ul li i {
+	color:#68bcde;
+}
+
+
+/* OBTEN */
+
+#screenshot-carousel i {
+color: #68bcde;
+}
+
+#screenshot-carousel a:hover {
+	color:red;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+	color:#ffffff;
+	background:#68bcde;
+}
+
+footer a {
+	color:#ffffff;
+}
+
+footer a:hover {
+	color:#3991b5;
+}
+
+
+/*  MISC. 
+    NAVIGATION */
+
+.navbar-custom {
+	color:#ffffff;
+}
+
+.navbar-custom a {
+	color:#ffffff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	color:#3991b5;
+}
+
+.navbar-custom .navbar-toggle {
+	background:#fff;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background:#68bcde;
+}
+
+.top-nav-collapse {
+	background-color: #68bcde;
+}
+
+
+
+/* BUTTON */
+
+.button-border-light {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.button-border-light:hover,
+.button-border-light:active {
+	color: #68bcde;
+	background: #ffffff;
+	text-decoration:none;
+}
+
+.button-border-dark {
+	border: 1px solid #68bcde;
+	color: #68bcde;
+}
+
+.button-border-dark:hover,
+.button-border-dark:active {
+	color: #ffffff;
+	background: #68bcde;
+	text-decoration:none;
+}
+
+
+/* FORM ELEMENTS */
+
+input {
+	color:#666666;
+	background: rgba(255,255,255, .7);
+}
+
+
+/* SOCIAL BUTTONS */
+
+.social a {
+	color:rgba(255,255,255, 1);
+} 
+
+.social a:hover {
+	color:#3991b5;
+}
+
+.social .fa-inverse {
+	color: #68bcde;
+}
+
+
+/* TWITTER */
+
+.twitter {
+	color:#666666;
+}
+
+.twitter .tweetList a {
+	color:#68bcde;
+}
+
+.twitter i {
+	color:#666;
+}
+
+.twitter i:hover {
+	color:#68bcde;
+}
+
+
+/* OTHERS */
+
+.parallax {
+	color:#ffffff;
+	background-color:#68bcde;
+	background:url(../../img/bg-blue.jpg) 50% 0 no-repeat fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+}
+
+.parallax h2 {
+	color:#ffffff;
+}
+
+.hr {
+	border-top:1px solid #68bcde;
+}
+
+/* PRELOAD */
+
+.preload {
+	background:#68bcde;
+}
+
+.spinner > div {
+	background-color:#ffffff;
+}

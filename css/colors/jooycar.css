@@ -1,0 +1,323 @@
+/* ORANGE.CSS */
+
+/* INTRO */
+
+.intro {
+    color: #ffffff;
+	background: url(../../img/bg-orange.jpg) no-repeat bottom center scroll;
+    background-color: #FF7E27;
+}
+
+.brand-heading {
+	color:#ffffff;
+}
+
+.intro-text {
+	color:#FF7E27;
+}
+
+/* INICIO */
+
+#inicio i {
+	color: #00A3A9;
+	font-size: 4em;
+	margin-right: 0.2em;
+}
+
+#inicio i:hover {
+	color: #FF7E27;
+}
+
+/* botones y logo */
+
+.fontColor{  
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+/* IMAGENES */
+
+img.color{  
+	background-color:#FF7E27
+}
+
+/* INFO */
+
+#info ul li i {
+	color:#FF7E27;
+}
+
+
+/* OBTEN */
+
+#screenshot-carousel i {
+color: #FF7E27;
+}
+
+#screenshot-carousel a:hover {
+	color:red;
+}
+
+#stores a {
+	color: #666;
+}
+
+#stores a:hover {
+	color: #fff;
+	background: #444;
+}
+
+
+/* FOOTER */
+
+footer {
+	color:#ffffff;
+	background:#003342;
+}
+
+footer a {
+	color:#ffffff;
+}
+
+footer a:hover {
+	color:#ee7725;
+}
+
+#footer h3 a {
+	padding: 0.1em 0.7em;
+	background: #001520;
+	border-radius: 4px;
+	color: #81A1AE;
+}
+
+#footer h3 a:hover {
+	color: #FF7400;
+}
+
+#register_email {
+	background: #FF6B00;
+	color: #000;
+	border: 1px solid #000;
+}
+
+footer #email {
+	background: #fff;
+}
+
+#contact-sent-ok {
+	color: #fff;
+	background: #001C28;
+	padding: 2em 1em;
+	border-radius: 8px;
+	margin: 1em;
+}
+
+.flags {
+	display: block;
+	height: 38px;
+	/*background-image: url('../../img/flags-38.png');*/
+}
+
+i.flags {
+	font-size: 1.4em;
+	width: 12px;
+	position: relative;
+	top: 2px;
+}
+
+#flag-brasil {
+	background-position: 0 0;
+}
+#flag-chile {
+	background-position: -55px 0;
+}
+#flag-mexico {
+	background-position: -111px 0;
+}
+#flag-peru {
+	background-position: -165px 0;
+}
+#flag-colombia {
+	background-position: -220px 0;
+}
+#flag-usa {
+	background-position: -275px 0;
+}
+
+/*  MISC. 
+    NAVIGATION */
+
+.navbar-custom {
+	color:#ffffff;
+}
+
+.navbar-custom a {
+	color:#ffffff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	color: #fff;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 6px;
+}
+
+.navbar-custom .navbar-toggle {
+	background:#fff;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background:#FF7E27;
+}
+
+.top-nav-collapse {
+	background-color: rgba(0, 48, 69, 0.8);
+	padding: 10px 0 0;
+}
+
+ul.nav.navbar-nav {
+	margin-right: 1em;
+}
+
+.navbar-nav li > a {
+	font-weight: normal;
+	letter-spacing: 2px;
+	font-size: 13px;
+	padding: 6px 10px;
+	margin-top: 14px;
+	margin-left: 6px;
+}
+
+
+li#access a {
+	background: #005C6C;
+	border-radius: 6px;
+}
+
+li#access a:hover {
+	background: #000;
+	color: #fff;
+	border-radius: 10px;
+}
+
+/* CONTACT FORM */
+#contact-form .form-control {
+	background-color: #CCD5DA;
+	color: #000000;
+}
+
+#contact-form .form-group {
+	text-align: left !important;
+}
+
+#contact-form label i {
+	font-style: italic;
+	font-size: 0.8em;
+	color: #769FAB;
+}
+
+#contact-title {
+	color: #ff7d00;
+	margin-top: 0;
+}
+
+#contact-button {
+	background-color: #ff7d00;
+}
+
+#contact-button:hover {
+	color: #000;
+	background-color: #fff;
+	border-color: #ff7d00;
+}
+
+/* BUTTON */
+
+.button-border-light {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.button-border-light:hover,
+.button-border-light:active {
+	color: #FF7E27;
+	background: #ffffff;
+	text-decoration:none;
+}
+
+.button-border-dark {
+	border: 1px solid #FF7E27;
+	color: #FF7E27;
+}
+
+.button-border-dark:hover,
+.button-border-dark:active {
+	color: #ffffff;
+	background: #FF7E27;
+	text-decoration:none;
+}
+
+
+/* FORM ELEMENTS */
+
+input {
+	color:#666666;
+	background: rgba(255,255,255, .7);
+}
+
+
+/* SOCIAL BUTTONS */
+
+
+.social .fa-inverse {
+	color: #FF7E27;
+}
+
+
+/* TWITTER */
+
+.twitter {
+	color:#666666;
+}
+
+.twitter .tweetList a {
+	color:#FF7E27;
+}
+
+.twitter i {
+	color:#666;
+}
+
+.twitter i:hover {
+	color:#FF7E27;
+}
+
+
+/* OTHERS */
+
+.parallax {
+	color:#ffffff;
+	background-color:#FF7E27;
+	background:url(../../img/bg-orange.jpg) 50% 0 no-repeat fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+}
+
+.parallax h2 {
+	color:#ffffff;
+}
+
+
+.hr {
+	border-top:1px solid #FF7E27;
+}
+
+
+/* PRELOAD */
+
+.preload {
+	background: #637C88;
+}
+
+.spinner > div {
+	background-color:#ffffff;
+}

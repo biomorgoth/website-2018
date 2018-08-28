@@ -1,0 +1,203 @@
+/* ORANGE.CSS */
+
+/* INTRO */
+
+.intro {
+    color: #ffffff;
+	background: url(../../img/bg-orange.jpg) no-repeat bottom center scroll;
+    background-color: #f29454;
+}
+
+.brand-heading {
+	color:#ffffff;
+}
+
+.intro-text {
+	color:#f29454;
+}
+
+/* INICIO */
+
+#inicio i {
+	color:#d5d5d5;
+	
+}
+
+#inicio i:hover {
+	color:#f29454;
+}
+/* botones y logo */
+
+.fontColor{  
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+/* IMAGENES */
+
+img.color{  
+	background-color:#f29454
+}
+
+/* INFO */
+
+#info ul li i {
+	color:#f29454;
+}
+
+
+/* OBTEN */
+
+#screenshot-carousel i {
+color: #f29454;
+}
+
+#screenshot-carousel a:hover {
+	color:red;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+	color:#ffffff;
+	background:#f29454;
+}
+
+footer a {
+	color:#ffffff;
+}
+
+footer a:hover {
+	color:#ee7725;
+}
+
+
+/*  MISC. 
+    NAVIGATION */
+
+.navbar-custom {
+	color:#ffffff;
+}
+
+.navbar-custom a {
+	color:#ffffff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	color:#ee7725;
+}
+
+.navbar-custom .navbar-toggle {
+	background:#fff;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background:#f29454;
+}
+
+.top-nav-collapse {
+	background-color: #f29454;
+}
+
+
+/* BUTTON */
+
+.button-border-light {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.button-border-light:hover,
+.button-border-light:active {
+	color: #f29454;
+	background: #ffffff;
+	text-decoration:none;
+}
+
+.button-border-dark {
+	border: 1px solid #f29454;
+	color: #f29454;
+}
+
+.button-border-dark:hover,
+.button-border-dark:active {
+	color: #ffffff;
+	background: #f29454;
+	text-decoration:none;
+}
+
+
+/* FORM ELEMENTS */
+
+input {
+	color:#666666;
+	background: rgba(255,255,255, .7);
+}
+
+
+/* SOCIAL BUTTONS */
+
+.social a {
+	color:rgba(255,255,255, 1);
+} 
+
+.social a:hover {
+	color:#ee7725;
+}
+
+.social .fa-inverse {
+	color: #f29454;
+}
+
+
+/* TWITTER */
+
+.twitter {
+	color:#666666;
+}
+
+.twitter .tweetList a {
+	color:#f29454;
+}
+
+.twitter i {
+	color:#666;
+}
+
+.twitter i:hover {
+	color:#f29454;
+}
+
+
+/* OTHERS */
+
+.parallax {
+	color:#ffffff;
+	background-color:#f29454;
+	background:url(../../img/bg-orange.jpg) 50% 0 no-repeat fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+}
+
+.parallax h2 {
+	color:#ffffff;
+}
+
+
+.hr {
+	border-top:1px solid #f29454;
+}
+
+
+/* PRELOAD */
+
+.preload {
+	background:#f29454;
+}
+
+.spinner > div {
+	background-color:#ffffff;
+}

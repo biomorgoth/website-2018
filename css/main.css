@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+	background: #00303C;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+.container {
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+  height: 100%;
+	text-align: center;
+  display: table;
+}
+
+.subcontainer {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+
+.subcontainer .logo {
+}
+
+.subcontainer .logo img {
+	max-width: 90%;
+}
+.subcontainer h1 {
+	color: #446B7C;
+	margin-bottom: 1em;
+}
+
+#svg-inject {
+	max-height: 220px;
+	max-width: 90%;
+}
+
+#svg-inject circle {
+	cursor: pointer;
+}
+
+#countries-table {
+	margin: auto;
+	width: 520px;
+}
+
+.countries {
+	list-style-type: none;
+	text-align: right;
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.countries li {
+	padding-bottom: 8px;
+}
+
+.countries a, .countries a:hover {
+	color: #fff;
+}
+
+.countries a:hover, .countries a.hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 520px) {
+	.subcontainer {
+		vertical-align: top;
+		top: 18px;
+	}
+	.subcontainer h1 {
+		margin-bottom: 0;
+	}
+ #countries-table {
+	 width: auto;
+ }
+}

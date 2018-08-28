@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+    	
+        <title>Jooycar - Connected with your car</title>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Jooycar - Connected with your car">
+        <meta name="keywords" content="Jooycar, ubi, obd2, smartcar, car connected, mobile, iphone, vehicle, telematics">
+        
+        <!-- viewport settings -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        
+        <script src="js/modernizr.custom.27294.js"></script>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/superslides.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/colors/jooycar.css">
+
+        <!-- Font -->
+        <link href='http://fonts.googleapis.com/css?family=Muli:300,400,500,600,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico">
+	</head>
+
+	<body>
+    
+    	<!-- PRELOADING -->  
+        <div class="preload">  
+            <div id="preload" class="spinner">
+              <div class="bounce1"></div>
+              <div class="bounce2"></div>
+              <div class="bounce3"></div>
+            </div>
+        </div>
+        
+        
+        <!-- NAVIGATION -->
+        <nav class="navbar navbar-fixed-top navbar-custom" role="top-nav-collapse">
+            <div class="container-fluid">
+            	<!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header scroll-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="scroll navbar-brand" href="#intro"><img src="img/logo.png" alt="logo" id="logo"></a>
+                </div>
+            
+				<!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav">
+                    
+                    <ul class="nav navbar-nav pull-right uppercase">
+                        <li><a class="scroll fontColor" href="#inicio">What is Jooycar?</a></li>
+                        <li><a class="scroll fontColor" href="#funciona">How it works</a></li>
+                        <li><a class="scroll fontColor" href="#info">My Jooycar</a></li>
+                      <!--<li><a class="scroll fontColor" href="#obten">Get your Jooycar</a></li>-->
+                        <li><a class="fontColor" href="business" target="_blank" id="business_link">Business</a></li>
+                        <li><a class="scroll fontColor" href="#footer">Contact</a></li>
+<<<<<<< 2e43f34ecefdf6e63e1960a39249c7573e7b2c99
+                        <li id="access"><a class="fontColor" href="//web.jooycar.com/login">Access</a></li>
+=======
+                        <li id="access"><a class="fontColor" href="https://web.jooycar.com/login?lang=en_US">Access</a></li>
+>>>>>>> Added lang to admin links.
+                    </ul>
+                
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+       	
+
+        <!-- FULLSCREEN SLIDER -->
+        <div id="slides">
+            <ul class="slides-container">
+                <li>
+                    <div class="row">
+                      <div class="col-xs-8 text-center">
+                        <h1 class="over">Connect your car to your Smartphone</h1>
+                        <p class="lead over">And live the best driving experience!</p>
+                          <a class="button button-big button-border-light soon" href="#footer">
+                            <span>PRE-SALE REGISTER HERE!</span>
+                            <i class="fa fa-hand-o-up fa-stack-2x"></i>
+                          </a>
+                      </div>
+                      <div class="col-xs-4">
+                        <img src="img/manoapp.png" class="preserve" />
+                      </div>
+                    </div>
+                    <img src="img/slide1.jpg" alt="">
+            	</li>
+              <li>
+                <div class="row">
+                  <div class="col-xs-8 text-center">
+                    <h1 class="over">Connect your car to your Smartphone</h1>
+                    <p class="lead over">And live the best driving experience!</p>
+                    <a class="button button-big button-border-light soon" href="#footer">
+                      <span>PRE-SALE REGISTER HERE!</span>
+                      <i class="fa fa-hand-o-up fa-stack-2x"></i>
+                    </a>
+                  </div>
+                  <div class="col-xs-4">
+                    <img src="img/manoapp1.png" class="preserve" />
+                  </div>
+                </div>
+                <img src="img/slide0.jpg" alt="">
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-xs-8 text-center">
+                    <h1 class="over">Connect your car to your Smartphone</h1>
+                    <p class="lead over">And live the best driving experience!</p>
+                    <a class="button button-big button-border-light soon" href="#footer">
+                      <span>PRE-SALE REGISTER HERE!</span>
+                      <i class="fa fa-hand-o-up fa-stack-2x"></i>
+                    </a>
+                  </div>
+                  <div class="col-xs-4">
+                    <img src="img/manoapp2.png" class="preserve" />
+                  </div>
+                </div>
+                <img src="img/slide2.jpg" alt="">
+              </li>
+            </ul>
+         
+            <nav class="slides-navigation">
+                <a href="#" class="next"><i class="fa fa-3x fa fa-chevron-circle-right"></i></a>
+                <a href="#" class="prev"><i class="fa fa-3x fa-chevron-circle-left"></i></a>
+            </nav>
+        </div>
+
+        
+        
+        <!-- SECTION INICIO -->
+        <section id="inicio" class="">
+            <div class="container">
+                <div class="row">
+                	  <div class="col-lg-12 wow fadeInDown animated" style="visibility: visible;">
+                    	<h2>What is <em>Jooycar</em>?</h2>
+                        <p><strong>Jooycar&trade;</strong> is an incredible platform that turns your car into a <em>SmartCar</em>
+                          allowing to know your car status in real-time, your driving behavior, your trip history,
+                          your car efficiency among others, in order to improve your driving experience and save.</p>
+                        <p>
+                          With Jooycar&trade; car-connected service, you will get the Jooycar plug & play device
+                          and a personal account to access your car-connected service through a web portal and a mobile app.
+                        </p>
+                        <h2 class="mini-flash">
+                          With Jooycare make Driving Safer, Easier & Less Expensive
+                        </h2>
+                    </div>
+                    	
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="feature wow fadeInDown" data-wow-delay="0.1">
+                            <i class="fa fa-5x fa-exclamation-triangle"></i>
+                            <h3>Detection and Emergency Alerts</h3>
+                            <p>Remote detection in case of accident, sending automatic and real-time alerts to your close contacts 
+							or a workshop in case of accident or breakdown of your car while alert.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="feature wow fadeInDown" data-wow-delay="0.1">
+                            <i class="fa fa-5x fa-dollar"></i>
+                            <h3>Saving</h3>
+                            <p>Apply to reduce the cost of auto insurance premiums if you drive well.</p>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="feature wow fadeInDown" data-wow-delay="0.2s">
+                            <i class="fa fa-5x fa-wrench"></i>
+                            <h3>Roadside Assistance 24x7</h3>
+                            <p>Just pressing the SOS button ypu can access to roadside assistance and mechanical support</p>
+                        </div>
+                    </div>
+
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="feature wow fadeInDown" data-wow-delay="0.3s">
+                            <i class="fa fa-5x fa-shield"></i>
+                            <h3>Prevention and mechanical diagnostics</h3>
+                            <p>Receive notifications and email updates for the activity of your vehicle allowing you to locate it at every moment.  
+								Also access to mechanical diagnostic to know your vehicle's health and understand failures.</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="feature wow fadeInDown" data-wow-delay="0.4s">
+                            <i class="fa fa-5x fa-users"></i>
+                            <h3>Family Safe</h3>
+                            <p>Always-on mobile connection reporting! Locate your car, family, and friends.
+                              (Monitor the behavior of young drivers).
+                            </p>
+                        </div>
+                    </div>
+
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="feature wow fadeInDown" data-wow-delay="0.4s">
+                      <i class="fa fa-5x fa-puzzle-piece"></i>
+                      <h3>Enjoy</h3>
+                      <p>Control your driving style and habits with your Jooyscore&trade; and compare yourself with your friends.</p>
+                    </div>
+                  </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </section>
+        
+        
+        <div class="container">
+        	<hr class="hr col-lg-6 col-lg-offset-3">
+        </div>
+        
+        
+        <!-- SECTION FUNCIONA -->
+        <section id="funciona">
+        	<div class="container">
+            	<div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8 pull-right">
+                              <div class="wow fadeInRightBig">
+                                <h2>How does it work?</h2>
+                                <p>The <strong class="contrast">Jooycar&trade;</strong> device is installed in your car <strong>OBDII</strong> port.</p>
+                                <p>It is very simple and usually is below the driving wheel.</p>
+                                <p>
+                                  From there your <strong>Jooycar</strong> device will connect to the computer in your car,
+                                  it will act as GPS and send relevant real-time information about your car through a <em>3G (GSM)</em>
+                                  network. After analyzing this information we will deliver it customized and privately for you in
+                                  a mobile app (<a href="#">App Jooycar</a>).
+                                </p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p class="text-right">
+                                  <img class="img-responsive color" src="img/foto3.png" alt="jooycar">
+                                </p>
+                                <p>&nbsp;</p>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 pull-left">
+                              <div class="wow fadeInLeftBig">
+                                <img class="color" src="img/vertical.jpg" />
+                              </div>
+                            </div>
+
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- FEATURES WITH PARALLAX BG -->
+        <div class="parallax" data-stellar-background-ratio="0.5">
+        	<div class="container">
+            	<div class="row text-center">
+                	<div class="col-lg-12 wow fadeInDown">
+                    	<h2><strong class="contrast">Jooycar&trade;</strong> accompanies you</h2>
+                    </div>
+                    
+                    <div class="col-lg-10 col-lg-offset-1">
+                    	<div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInLeft">
+                                <i class="fa fa-5x fa-history"></i>
+                                <p class="lead">Review your travel history</p>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp">
+                                <i class="fa fa-5x fa-medkit"></i>
+                                <p class="lead">Vehicle Diagnostics
+                                  <br />
+                                  <small>Know in your Smartphone your car's health</small></p>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInRight">
+                                <i class="fa fa-5x fa-dashboard"></i>
+                                <p class="lead">Improve your driving
+                                  <br />
+                                  <small>With your personal driving performance stats and jooyscore.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- SECTION MORE INFO -->
+        <section id="info" data-stellar-background-ratio="0.5">
+            	<div class="row">
+                	<div class="col-lg-10 col-lg-offset-1">
+                    	<div class="row">
+                        
+                        	<div class="col-lg-5 col-md-5 text-center wow fadeInLeft">
+                                <img class="color" src="img/iphone-android.png">
+                            </div>
+                            
+                            <div class="col-lg-7 col-md-7 wow fadeInRight">
+                              <div style="padding: 0 2em;">
+                            	<h2>Jooycar is your mobile access to your car ...</h2>
+                                <p class="lead">In the <strong class="contrast">Jooycar App</strong> and in the <strong class="contrast">Web Portal</strong> you will find:</p>
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                	<tr><td><i class="fa fa-3x fa-arrow-circle-o-right"></i></td><td><span>Your travel history.</span></td></tr>
+                                    <tr><td><i class="fa fa-3x fa-arrow-circle-o-right"></i></td><td><span>Your <em>jooyscore</em> according to your driving style.</span></td></tr>
+                                	<tr><td><i class="fa fa-3x fa-arrow-circle-o-right"></i></td><td><span>Your car: Remote diagnostics of your car's health.</span></td></tr>
+                               		<tr><td><i class="fa fa-3x fa-arrow-circle-o-right"></i></td><td><span>Your emergency and damage alerts.</span></td></tr>
+									<tr><td><i class="fa fa-3x fa-arrow-circle-o-right"></i></td><td><span>Your performance driving information.</span></td></tr>
+                                	<tr><td><i class="fa fa-3x fa-arrow-circle-o-right"></i></td><td><span>Location Tracking - Where is your car?</span></td></tr>
+                                	<tr><td><i class="fa fa-3x fa-arrow-circle-o-right"></i></td><td><span>"Geofence Alerts" configure receiving messages triggered by your vehicle's location.</span></td></tr>
+                                    <tr><td><i class="fa fa-3x fa-arrow-circle-o-right"></i></td><td><span>SOS Button</span></td></tr>
+                                    <tr><td><i class="fa fa-3x fa-arrow-circle-o-right"></i></td><td><span>And much more...</span></td></tr>
+                                </table>
+                                <div id="stores" class="text-center">
+                                  Download Mobile APP soon at:
+                                  <br />
+                                  <a class="button button-big button-border-dark text-center" href="#"><i class="fa fa-2x fa-apple"></i> App Store</a>
+                                  <a class="button button-big button-border-dark text-center" href="#"><i class="fa fa-2x fa-android"></i> Google Play</a>
+                                </div>
+
+
+                              </div>
+                            </div>
+                        </div>
+                	</div>
+                </div>
+            </div>
+            <div class="all-devices">
+              <img src="img/devices.png" width="770" height="385" />
+            </div>
+        </section>
+
+        <!-- FOOTER-->
+        <footer id="obten">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center" id="footer">
+                        <div class="col-sm-5 text-right">
+                          <h1 id="contact-title">Contact</h1>
+                        </div>
+                        <div class="col-sm-7">
+                          <div class="form-horizontal" id="contact-form">
+                            <div class="form-group">
+                              <label for="contact-name" class="col-sm-2 control-label">Name</label>
+                              <div class="col-sm-10">
+                                <input type="text" class="form-control" id="contact-name" placeholder="Enter your name...">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="contact-email" class="col-sm-2 control-label">Email</label>
+                              <div class="col-sm-10">
+                                <input type="email" class="form-control" id="contact-email" placeholder="Enter your email...">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="contact-message" class="col-sm-2 control-label">Message <i>(Optional)</i></label>
+                              <div class="col-sm-10">
+                                <textarea id="contact-message" class="form-control" name="contact-message" rows="4"></textarea>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" id="contact-presale" checked="checked">
+                                    Yes, I wish to be contacted for preorder!
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="col-sm-offset-2 col-sm-10">
+                                <button class="button button-big button-border-light" id="contact-button">Send</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      <div class="clearfix"></div>
+                      <h3 id="contact-sent-ok" style="display:none;">Thank you! We will contact you soon.</h3>
+
+                        <div class="social pull-left">
+                        	<!--<a href="https://twitter.com/Jooycar" class="btn-twitter">-->
+                              <!--<span class="fa-stack fa-lg fa-2x">-->
+                                <!--<i class="fa fa-circle fa-stack-2x"></i>-->
+                                <!--<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>-->
+                              <!--</span>-->
+                            <!--</a>-->
+
+                            <!--<a href="https://www.facebook.com/pages/Jooycar/1468875826714181" class="btn-facebook">-->
+                              <!--<span class="fa-stack fa-lg fa-2x">-->
+                                <!--<i class="fa fa-circle fa-stack-2x"></i>-->
+                                <!--<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>-->
+                            <!--</span></a>-->
+                        <!--</div>-->
+                        
+                    </div>
+                    <div class="col-lg-12 text-center">
+                      <hr>
+
+                      <p class="small pull-left">Jooycar&trade; <span id="copyyear">2015</span> &copy;.</p>
+
+                      <ul class="small list-inline uppercase pull-right">
+                        <li>
+                          <a href="http://www.jooycar.com/#countries">
+                            <i class="fa fa-2x fa-globe flags"></i>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="http://www.jooycar.com.br/" title="Brazil" class="flags">Brazil</a>
+                        </li>
+                        <li>
+                          <a href="http://www.jooycar.cl/" title="Chile" id="flag-chile" class="flags">Chile</a>
+                        </li>
+                        <li>
+                          <a href="http://www.jooycar.mx/" title="Mexico" id="flag-mexico" class="flags">Mexico</a>
+                        </li>
+                        <li>
+                          <a href="http://jooycar.com.pe/" title="Peru" id="flag-peru" class="flags">Peru</a>
+                        </li>
+                        <li>
+                          <a href="http://jooycar.co/" title="Colombia" id="flag-colombia" class="flags">Colombia</a>
+                        </li>
+                        <li>
+                          <a href="http://usa.jooycar.com/" title="USA" id="flag-usa" class="flags">USA</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    	<script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.superslides.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/smooth-scroll.js"></script>
+        <script src="js/tweetable.jquery.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <!--<script src="js/retina-1.1.0.min.js"></script>-->
+        <script src="js/main.js"></script>
+        <!-- GOOGLE ANALYTICS -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-54424200-8', 'auto');
+          ga('require', 'displayfeatures');
+          ga('send', 'pageview');
+        </script>
+        
+	</body>
+</html>

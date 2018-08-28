@@ -1,0 +1,207 @@
+/* YELLOW.CSS */
+
+/* INTRO */
+
+.intro {
+    color: #ffffff;
+	background: url(../../img/bg-yellow.jpg) no-repeat bottom center scroll;
+    background-color: #ffcd46;
+}
+
+.brand-heading {
+	color:#ffffff;
+}
+
+.intro-text {
+	color:#ffcd46;
+}
+
+
+/* INICIO */
+
+#inicio i {
+	color:#d5d5d5;
+}
+
+#inicio i:hover {
+	color:#ffcd46;
+}
+/* botones y logo */
+
+.fontColor{  
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+/* IMAGENES */
+
+img.color{  
+	background-color:#ffcd46
+}
+
+
+
+
+
+/* INFO */
+
+#info ul li i {
+	color:#ffcd46;
+}
+
+
+/* OBTEN */
+
+#screenshot-carousel i {
+color: #ffcd46;
+}
+
+#screenshot-carousel a:hover {
+	color:red;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer {
+	color:#ffffff;
+	background:#ffcd46;
+}
+
+footer a {
+	color:#ffffff;
+}
+
+footer a:hover {
+	color:#ffba00;
+}
+
+
+/*  MISC. 
+    NAVIGATION */
+
+.navbar-custom {
+	color:#ffffff;
+}
+
+.navbar-custom a {
+	color:#ffffff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	color:#333;
+}
+
+.navbar-custom .navbar-toggle {
+	background:#fff;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background:#ffcd46;
+}
+
+.top-nav-collapse {
+	background-color: #ffcd46;
+}
+
+
+/* BUTTON */
+
+.button-border-light {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.button-border-light:hover,
+.button-border-light:active {
+	color: #ffcd46;
+	background: #ffffff;
+	text-decoration:none;
+}
+
+.button-border-dark {
+	border: 1px solid #ffcd46;
+	color: #ffcd46;
+}
+
+.button-border-dark:hover,
+.button-border-dark:active {
+	color: #333333;
+	background: #ffcd46;
+	text-decoration:none;
+}
+
+
+
+/* FORM ELEMENTS */
+
+input {
+	color:#666666;
+	background: rgba(255,255,255, .7);
+}
+
+
+/* SOCIAL BUTTONS */
+
+.social a {
+	color:rgba(255,255,255, 1);
+} 
+
+.social a:hover {
+	color:#ffba00;
+}
+
+.social .fa-inverse {
+	color: #ffcd46;
+}
+
+
+/* TWITTER */
+
+.twitter {
+	color:#666666;
+}
+
+.twitter .tweetList a {
+	color:#ffcd46;
+}
+
+.twitter i {
+	color:#666;
+}
+
+.twitter i:hover {
+	color:#ffcd46;
+}
+
+
+/* OTHERS */
+
+.parallax {
+	color:#ffffff;
+	background-color:#ffcd46;
+	background:url(../../img/bg-yellow.jpg) 50% 0 no-repeat fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+}
+
+.parallax h2 {
+	color:#ffffff;
+}
+
+.hr {
+	border-top:1px solid #ffcd46;
+}
+
+/* PRELOAD */
+
+.preload {
+	background:#ffcd46;
+}
+
+.spinner > div {
+	background-color:#ffffff;
+}
