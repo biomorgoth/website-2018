@@ -7,83 +7,177 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark|Source+Sans+Pro" rel="stylesheet">
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
-	<div id="contenedor" class="container-fluid">
+	<div class="container-fluid">
 		<header>
-			<a href="index.html"><img src="imgs/Jooycar_w@1x.svg" alt="logo jooycar" /></a>
-			<div class="principal">
-				<img src="imgs/Isotipo-Jooycar-w.svg" alt="isotipo jooycar" />
-				<h1>
-					Connected Car Experiences for the new consumer
-				</h1>
-				<h4> Disruptive innovation in Latam for the world </h4>
-				<p> We use the power of IOT and smartphone-based data to deliver valuable connected services that enable new experiences
-					to our customers as well as consumers and actionable data for businesses. </p>
-
-			</div>
+				<div class="navigation-menu row">
+						<div class="col-12 col-md-8">
+							<a href="index.html">
+								<img src="imgs/Jooycar_w@1x.svg" alt="logo jooycar" />
+							</a>
+						</div>
+						<div class="col-3 col-md-1 text-center link-wrapper">
+								<a href="/blog" class="white-link">
+									Blog
+								</a>
+						</div>
+						<div class="col-5 col-md-2 text-center link-wrapper">
+								<a href="/blog" class="white-link">
+									Developers
+								</a>
+						</div>
+						<div class="col-4 col-md-1 text-center link-wrapper">
+								<a href="#contact-form" class="white-link">
+									Contact
+								</a>
+						</div>
+				</div>
+				<div class="principal">
+					<div class="container">
+						<div class="col-12 p-3 text-center">
+							<img src="imgs/Isotipo-Jooycar-w.svg" class="img-fluid" alt="logo jooycar">
+						</div>
+						<div class="col-12 p-3 text-center">
+							<h1 class="heading">
+								Connected Car Experiences for the new consumer
+							</h1>
+							<h4 class="sub-heading"> Disruptive innovation in Latam for the world </h4>
+							<p class="text-paragraph">
+								We use the power of IOT and smartphone-based data to deliver valuable connected services that enable new experiences
+								to our customers as well as consumers and actionable data for businesses.
+							</p>
+						</div>
+					</div>
+				</div>
 		</header>
 		<section class="componentes">
-			<h2> Customer driving behaviour as the source of value and differentiation </h2>
-
-			<div class="contcomp">
-				<article class="cajacomponente">
-					<img src="imgs/accurateimg.png" width="104" height="104" alt="" />
-					<h3> Accurate Data Collection &amp; Analysis </h3>
-					<p> Our solution collects and correlates driver behavior data at all times to obtain the granularity of the data necessary
-						to correctly evaluate driving performance and formulate a precise risk profile</p>
-				</article>
-
-				<article class="cajacomponente">
-					<img src="imgs/driversimg.png" width="104" height="104" alt="" />
-					<h3> Drivers performance &amp; Scoring </h3>
-					<p> We evaluate the driver behavior on relevant variables by considering Distance traveled, Driving time, Idling, Maximum
-						speeds, Abrupt accelerations &amp; braking among many others </p>
-				</article>
-
-				<article class="cajacomponente">
-					<img src="imgs/realtimeimg.png" width="104" height="104" alt="" />
-					<h3> Real-Time Smart Contextual data </h3>
-					<p> Focused on improving the information adquired with contextualized data to enhance the understanding of the ways
-						of driving and the behavior of vehicles on the route</p>
-				</article>
-
-				<div class="linea2p">
-					<article class="cajacomponente">
-						<img src="imgs/moreloyaltyimg.png" width="104" height="104" alt="" />
-						<h3> More Loyalty and Less Claims </h3>
-						<p> Engage with and retain your customers through a constant interaction and trustworthy information delivery on the
-							driving experience. Digital services as online monitoring &amp; diagnostic, movement detection and even failure predictions
-							will definitely help with retention. </p>
+				<div class="row">
+					<article class="col-6 col-md-2">
+						<img  class="col-12 img-fluid text-center" src="imgs/procsdatos-rt.svg" alt="" />
+						<p class="component-title white-text-title text-center py-3">
+							Procesamiento de Datos Tiempo Real
+						</p>
 					</article>
 
-					<article class="cajacomponente">
-						<img src="imgs/agnosticsolutionimg.png" width="104" height="104" alt="" />
-						<h3> Agnostic Solution to the Device </h3>
-						<p> We deliver great actionable data for your business helping you to chose the best data source to fit your program.
-							To collect reliable data we recommend the use of OBD2 device, nevertheless Phone Only and Beacons are good enough
-							to create a great value proposition. </p>
+					<article class="col-6 col-md-2">
+						<img  class="col-12 img-fluid text-center" src="imgs/contextual-data.svg" alt="" />
+						<p class="component-title yellow-text-title text-center py-3">
+							Enriquecimiento Con Data contextual
+						</p>
 					</article>
 
+					<article class="col-6 col-md-2">
+						<img  class="col-12 img-fluid text-center" src="imgs/plugandplay.svg" alt="" />
+						<p class="component-title white-text-title text-center py-3">
+							Plug&Play Integración Rápida
+						</p>
+					</article>
+
+					<article class="col-6 col-md-2">
+						<img  class="col-12 img-fluid text-center" src="imgs/analitica-machinelearning.svg" alt="" />
+						<p class="component-title yellow-text-title text-center py-3">
+							Analítica y Machine Learning
+						</p>
+					</article>
+
+					<article class="col-6 col-md-2">
+						<img  class="col-12 img-fluid text-center" src="imgs/sdk.svg" alt="" />
+						<p class="component-title white-text-title text-center py-3">
+							Acceso rápido a través de API + SDK
+						</p>
+					</article>
+
+					<article class="col-6 col-md-2">
+						<img  class="col-12 img-fluid text-center" src="imgs/mult-fuentes.svg" alt="" />
+						<p class="component-title yellow-text-title text-center py-3">
+							Multiples Fuentes de Datos y Compatibilidad
+						</p>
+					</article>
+			</div>
+		</section>
+
+		<section class="hablan container-fluid row">
+				<p class="col-12 black-title">HABLAN DE NOSOTROS</p>
+				<div class="col-12 col-md-4 quote-card">
+					<div class="col-12">
+						<div class="card cuadro">
+							<div class="card-body align-items-center d-flex justify-content-center">
+								<blockquote class="blockquote mb-0">
+									<p class="client-quote">“Jooycar looks to enhance car-insurance industry”</p>
+								</blockquote>
+							</div>
+							<img class="card-img-bottom" src="imgs/smartbrieflogo.png" alt="SmartBrief logo">
+						</div>
+					</div>
 				</div>
 
+				<div class="col-12 col-md-4 quote-card">
+					<div class="col-12">
+						<div class="card cuadro">
+							<div class="card-body align-items-center d-flex justify-content-center">
+								<blockquote class="blockquote mb-0">
+									<p class="client-quote">“Afer only three years, they’ve gained a strong reputation as one of the most innovative IoT products in the market”</p>
+								</blockquote>
+							</div>
+							<img class="card-img-bottom" src="imgs/Forbeslogo.png" alt="SmartBrief logo">
+						</div>
+					</div>
+				</div>
 
-			</div>
+				<div class="col-12 col-md-4 quote-card">
+					<div class="col-12">
+						<div class="card cuadro">
+							<div class="card-body align-items-center d-flex justify-content-center">
+								<blockquote class="blockquote mb-0">
+									<p class="client-quote">“Jooycar es pionera en Latinoamérica y está impulsando las polizas de auto conectado en nuestro país”</p>
+								</blockquote>
+							</div>
+							<img class="card-img-bottom padded-logo" src="imgs/hoyxhoy-logo.png" alt="SmartBrief logo" style="width: 66px; height: 66px;">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 offset-md-4 text-center">
+					<div class="col-12 p-3">
+						<a class="btn btn-normal" href="/clients">
+							<span class="btn-normal-text">
+								Mostrar Más
+							</span>
+						</a>
+					</div>
+				</div>
+				
 
 		</section>
 
-		<section class="productos">
+		<section class="clientes container-fluid row">
+				<div class="col-12 col-md-4 p-4">
+					<p class="client-intro py-2 text-left">
+						Ellos Ya Están Usando Jooycar:
+					</p>
+				</div>
 
+				<div class="col-12 col-md-4 p-4 text-center">
+					<a href="http://www.sura.cl/">
+						<img  class="img-fluid text-center" src="imgs/logosura.svg" alt="" />
+					</a>
+				</div>
 
-			<article class="productoestilo1">
-				<img src="imgs/Viajered.png" width="402" height="424" alt="" />
-				<div class="contenedortxtp">
+				<div class="col-12 col-md-4 p-4 text-center">
+					<a href="https://www.consorcio.cl/">
+						<img  class="img-fluid text-center" src="imgs/logoconsorcio.svg" alt="" />
+					</a>
+				</div>
+		</section>
+
+		<section class="">
+			<article class="productoestilo1 container-fluid row">
+				<div class="col-12 col-md-7">
+						<img src="imgs/Viajered.png" width="402" height="424" alt="" />
+				</div>
+				<div class="contenedortxtp col-12 col-md-5">
 					<h2> Jooycar for insurance </h2>
 					<p> Our platform allows Insurance Companies to create new connected insurance policies that generate superior digital
 						experiences, creating value for the final consumer and enhancing the policyholder ́s experience and retention with
@@ -100,8 +194,8 @@
 					</p>
 				</div>
 			</article>
-			<article class="productoestilo2">
-				<div class="contenedortxtp">
+			<article class="productoestilo2 container-fluid row">
+				<div class="contenedortxtp col-12 col-md-5">
 					<h2>
 						Jooycar for Fleets
 					</h2>
@@ -123,12 +217,13 @@
 						</ul>
 					</p>
 				</div>
-				<img src="imgs/Fleetred.png" width="410" height="424" alt="" />
+				<div class="col-12 col-md-7">
+						<img src="imgs/Fleetred.png" width="410" height="424" alt="" />
+				</div>
 			</article>
-			<article class="productoestilo1">
-
-				<div class="imgcar"> <img src="imgs/Vehiclered 2.png" width="414" height="437" alt="" /> </div>
-				<div class="contenedortxtp">
+			<article class="productoestilo1  container-fluid row">
+				<div class="imgcar col-12 col-md-7"> <img src="imgs/Vehiclered 2.png" width="414" height="437" alt="" /> </div>
+				<div class="contenedortxtp col-12 col-md-5">
 					<h2> Jooycar for Automotive </h2>
 					<p> We strongly support disruptive innovation for car dealerships and roadside assistance companies in order to revolutionize
 						the way in which they communicate with their customers and allow access to offer services according to the latest technology
@@ -154,98 +249,193 @@
 
 		</section>
 
-		<!-- <section class="slider">
-
-			<div class="textoslider">
-				<h3>“After only three years, they’ve gained a strong reputation as one of the most innovative IoT products in the market”</h3>
-				<img src="imgs/Forbeslogo.png" width="288" height="59" alt="" /></div>
-
-			<div class="textoslider">
-				<h3>“Jooycar looks to enhance car-insurance industry”</h3>
-				<img src="imgs/smartbrieflogo.png" width="288" height="59" alt="" /></div>
-
-			<div class="textoslider">
-				<h3>“Jooycar helps us adding value to our customers than just insurance policies”</h3>
-				<img src="imgs/segsuralogo.png" width="288" height="59" alt="" /></div>
-
-
-		</section> -->
-
-		<section class="theteam">
-			<h2>
-				The Team
-			</h2>
-			<div class="teamorder">
-				<article class="person">
-					<a href="https://www.linkedin.com/in/mariapazgillet" target="_parent"><img src="imgs/mpaz.png" width="94" height="94"
-						 alt=""></a>
-					<h6> María Paz Gillet </h6>
-					<p> CEO &amp; Co-Founder </p>
+		<section id="team" class="theteam container-fluid row">
+			<p class="col-12 black-title text-center">The Team</p>
+			<div class="row">
+				<article class="col-6 col-md-3 person pb-3">
+					<div class="col-12 text-center">
+						<a class="col-12 img-fluid" href="https://www.linkedin.com/in/mariapazgillet" target="_parent">
+							<img src="imgs/mpaz.png" width="94" height="94" alt="">
+						</a>
+						<div class="col-12 text-center">
+							<div class="row">
+								<span class="person-name col-12">María Paz Gillet</span>
+								<span class="person-position col-12">CEO &amp; Co-Founder</span>
+							</div>
+						</div>
+					</div>
 				</article>
 
-				<article class="person">
-					<a href="https://www.linkedin.com/in/emilioft" target="_parent"><img src="imgs/milo.png" width="94" height="94" alt=""></a>
-					<h6> Emilio Figueroa </h6>
-					<p> CTO &amp; Co-Founder </p>
+				<article class="col-6 col-md-3 person pb-3">
+					<div class="col-12 text-center">
+						<a class="col-12 img-fluid" href="https://www.linkedin.com/in/emilioft" target="_parent">
+							<img src="imgs/milo.png" width="94" height="94" alt="">
+						</a>
+						<div class="col-12 text-center">
+							<div class="row">
+								<span class="person-name col-12">Emilio Figueroa</span>
+								<span class="person-position col-12">CTO &amp; Co-Founder</span>
+							</div>
+						</div>
+					</div>
 				</article>
 
-				<article class="person">
-					<a href="https://www.linkedin.com/in/mario-ungemach-marin-67022284" target="_parent"><img src="imgs/mario.png" width="94"
-						 height="94" alt=""></a>
-					<h6> Mario Ungemach </h6>
-					<p> Mobile Leader &amp; Co-Founder </p>
+				<article class="col-6 col-md-3 person pb-3">
+					<div class="col-12 text-center">
+						<a class="col-12 img-fluid" href="https://www.linkedin.com/in/mario-ungemach-marin-67022284" target="_parent">
+							<img src="imgs/mario.png" width="94" height="94" alt="">
+						</a>
+						<div class="col-12 text-center">
+							<div class="row">
+								<span class="person-name col-12">Mario Ungemach</span>
+								<span class="person-position col-12">Mobile Leader &amp; Co-Founder</span>
+							</div>
+						</div>
+					</div>
 				</article>
 
-				<article class="person">
-					<a href="https://www.linkedin.com/in/adler-oliveira-362b669" target="_parent"><img src="imgs/adler.png" width="94" height="94"
-						 alt=""></a>
-					<h6> Adler Oliveira </h6>
-					<p> Systems Architect </p>
+				<article class="col-6 col-md-3 person pb-3">
+					<div class="col-12 text-center">
+						<a class="col-12 img-fluid" href="https://www.linkedin.com/in/adler-oliveira-362b669" target="_parent">
+							<img src="imgs/adler.png" width="94" height="94" alt="">
+						</a>
+						<div class="col-12 text-center">
+							<div class="row">
+								<span class="person-name col-12">Adler Oliveira</span>
+								<span class="person-position col-12">Systems Architect</span>
+							</div>
+						</div>
+					</div>
 				</article>
 
-				<article class="person">
-					<a href="https://www.linkedin.com/in/daniel-fuentealba-abb7a5a0" target="_parent"><img src="imgs/daniel.png" width="94"
-						 height="94" alt=""></a>
-					<h6> Daniel Fuentealba </h6>
-					<p> UI/UX Product Designer </p>
+				<article class="col-6 col-md-3 person pb-3">
+					<div class="col-12 text-center">
+						<a class="col-12 img-fluid" href="https://www.linkedin.com/in/daniel-fuentealba-abb7a5a0" target="_parent">
+							<img src="imgs/daniel.png" width="94" height="94" alt="">
+						</a>
+						<div class="col-12 text-center">
+							<div class="row">
+								<span class="person-name col-12">Daniel Fuentealba</span>
+								<span class="person-position col-12">UI/UX Product Designer</span>
+							</div>
+						</div>
+					</div>
 				</article>
 
-				<article class="person">
-					<a href="https://www.linkedin.com/in/rodrigo-benito-villarreal" target="_parent"><img src="imgs/beno.png" width="94"
-						 height="94" alt=""></a>
-					<h6> Rodrigo Benito </h6>
-					<p> Business Manager </p>
+				<article class="col-6 col-md-3 person pb-3">
+					<div class="col-12 text-center">
+						<a class="col-12 img-fluid" href="https://www.linkedin.com/in/rodrigo-benito-villarreal" target="_parent">
+							<img src="imgs/beno.png" width="94" height="94" alt="">
+						</a>
+						<div class="col-12 text-center">
+							<div class="row">
+								<span class="person-name col-12">Rodrigo Benito</span>
+								<span class="person-position col-12">Business Manager</span>
+							</div>
+						</div>
+					</div>
 				</article>
 
-				<article class="person">
-					<a href="https://www.linkedin.com/in/luis-alberto-aninat-urrejola-17099034" target="_parent"><img src="imgs/luis.png"
-						 width="94" height="94" alt=""></a>
-					<h6> Luis Alberto Aninat </h6>
-					<p> Board Director </p>
+				<article class="col-6 col-md-3 person pb-3">
+					<div class="col-12 text-center">
+						<a class="col-12 img-fluid" href="https://www.linkedin.com/in/luis-alberto-aninat-urrejola-17099034" target="_parent">
+							<img src="imgs/luis.png" width="94" height="94" alt="">
+						</a>
+						<div class="col-12 text-center">
+							<div class="row">
+								<span class="person-name col-12">Luis Alberto Aninat</span>
+								<span class="person-position col-12">Board Director</span>
+							</div>
+						</div>
+					</div>
 				</article>
 
-				<article class="person">
-					<a href="https://www.linkedin.com/in/nathanlustig" target="_parent"><img src="imgs/nate.png" width="94" height="94"
-						 alt=""></a>
-					<h6> Nathan Lustig </h6>
-					<p> Board Director </p>
+				<article class="col-6 col-md-3 person pb-3">
+					<div class="col-12 text-center">
+						<a class="col-12 img-fluid" href="https://www.linkedin.com/in/nathanlustig" target="_parent">
+							<img src="imgs/nate.png" width="94" height="94" alt="">
+						</a>
+						<div class="col-12 text-center">
+							<div class="row">
+								<span class="person-name col-12">Nathan Lustig</span>
+								<span class="person-position col-12">Board Director</span>
+							</div>
+						</div>
+					</div>
 				</article>
-			</div>
-
 		</section>
 
-		<footer>
-
-			<div class="jooycardatos">
-				<img src="imgs/imagotipo.png" width="146" height="133" alt="" />
-				<p>2018 ©</p>
+		<footer class="footer container-fluid row">
+			<div class="col-12 col-md-5 jooycardatos">
+				<div class="row">
+					<div class="col-6">
+						<img src="imgs/imagotipo.png" width="146" height="133" alt="" />
+					</div>
+					<div class="col-6">
+						<div class="col-12 text-center link-wrapper p-2">
+							<a href="/blog" class="white-link">
+								Blog
+							</a>
+						</div>
+						<div class="col-12 text-center link-wrapper p-2">
+							<a href="#team" class="white-link">
+								Team
+							</a>
+						</div>
+						<div class="col-12 text-center link-wrapper p-2">
+							<a href="/career" class="white-link">
+								Empleos
+							</a>
+						</div>
+					</div>
+					<div class="col-12 py-5 white-link">
+						<a class="white-link" href="#">Usa</a> - <a class="white-link"  href="#">México</a> - <a class="white-link"  href="#">Colombia</a> - <a class="white-link"  href="#">Brazil</a> - <a class="white-link"  href="#">Perú</a>
+							- <a class="white-link"  href="#">Chile</a>
+					</div>
+					<div class="col-12 py-4 address">
+						<p>contact@jooycar.com</p>
+						<p>HQ: Santa Beatriz 100, oficina 604 Providencia,</p>
+						<p>Santiago / Chile</p>
+					</div>
+				</div>
 			</div>
-			<div class="contacttitle">
-				<h2>Get in Touch</h2>
-				<h6>contact@jooycar.com </h6>
-				<p>HQ: Santa Beatriz 100 of. 604, Providencia, Santiago / Chile</p>
-				<h4><a href="#"> Usa</a> - <a href="#">México</a> - <a href="#">Colombia</a> - <a href="#">Brazil</a> - <a href="#">Perú</a>
-					- <a href="#">Chile</a></h4>
+			<div class="col-12 col-md-7 contacttitle" id="contact-form">
+				<div class="container-fluid row">
+					<div class="col-12">
+						<p class="contact-heading">Contáctanos</p>
+					</div>
+					<div class="col-12">
+							<p class="contact-sub-heading">Si quieres conocer más de nuestros servicios</p>
+					</div>
+					<div class="col-12 py-1">
+						<form id="contact-form-obj" method="post" action="https://httpbin.org/post" role="form">
+							<div class="messages"></div>
+							<div class="form-group">
+								<label class="form-label" for="companyName">Nombre de la Empresa</label>
+								<input type="text" class="form-control" id="companyName" name="company">
+							</div>
+							<div class="form-row">
+								<div class="form-group col-12 col-md-6">
+									<label class="form-label" for="name">Tu Nombre</label>
+									<input type="text" class="form-control" id="name" name="username">
+								</div>
+								<div class="form-group col-12 col-md-6">
+									<label class="form-label" for="email">Email</label>
+									<input type="email" class="form-control" id="email" name="useremail">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="form-label" for="message">Mensaje</label>
+								<textarea class="form-control" id="message" name="usermessage" rows="4"></textarea>
+							</div>
+							<button type="submit" class="btn btn-submit-form">
+								<span class="btn-submit-form-text">
+									Enviar
+								</span>
+							</button>
+						</form>
+					</div>
+				</div>
 			</div>
 
 
@@ -254,6 +444,10 @@
 
 
 	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="./js/index.js"></script>
 </body>
 
 </html>
