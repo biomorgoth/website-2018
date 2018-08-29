@@ -5,7 +5,8 @@
           "name": "Launch index.html",
           "type": "chrome",
           "request": "launch",
-          "file": "${workspaceFolder}/index.html"
+          "file": "${workspaceFolder}/index.html",
+          "userDataDir": "${workspaceRoot}/out/chrome"
       },
   ]
 }
