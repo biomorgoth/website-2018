@@ -55,7 +55,7 @@
 .principal {
 	background-image: url(imgs/BG.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+  background-size: cover;
 }
 
 .heading {
