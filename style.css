@@ -357,26 +357,125 @@ body {
 	}
 }
 
+.person {
+  display: flex;
+  flex-direction: column;
+}
+
+.person-picture {
+  align-self: center;
+}
+
+.person-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .person-name {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  text-align: center;
+  color: #676666;
+  padding-top: 12px;
+}
+
+.person-position {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ba8d25;
+  padding-top: 6px;
+}
+
+.blue-title {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 0.2px;
+  color: #4779c1;
+  margin-bottom: 0;
+}
+
+.black-subtitle {
   font-size: 18px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.44;
-	letter-spacing: 0.2px;
-	color: #676666;
+  line-height: 1.94;
+  letter-spacing: 0.2px;
+  color: #818181;
 }
 
-.person-position {
-  font-size: 16px;
-  font-weight: normal;
+.mask-wrapper {
+  width: 128px;
+  margin: 0 auto;
+  height: 128px;
+}
+
+.mask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 128px;
+  height: 128px;
+  background-color: #ffffff;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+}
+
+.you {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.88;
+  line-height: 1.25;
   letter-spacing: 0.2px;
-  color: #676666;
+  color: #63a4ff;
 }
 
+.img {
+  border-radius: 100%;
+  display: flex;
+  flex: 0 0 128px;
+  height: 128px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 128px;
+}
+
+.img__overlay {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.25s;
+  z-index: 1;
+}
+.img__overlay:hover {
+  background-color: rgba(255,255,255,0.6);
+  opacity: 1;
+}
+.img__overlay {
+  background-color: #fff;
+}
 /* ________________FOOTER_________________*/
 
 .footer {
