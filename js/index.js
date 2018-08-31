@@ -28,11 +28,11 @@ function openInNewTab(url) {
 $(function () {
 
   $('#collapseNews').on('hide.bs.collapse', function () {
-    $('#collapseText').text('Mostrar Más');
+    $('#collapseText').text(window.lang.translate('Show More'));
   })
 
   $('#collapseNews').on('show.bs.collapse', function () {
-    $('#collapseText').text('Mostrar Menos');
+    $('#collapseText').text(window.lang.translate('Show Less'));
   })
 
   function ConvertFormToJSON(form) {

@@ -177,7 +177,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance.parent = this;
 	this.instance.setTransform(0,37);
 
-	this.text = new cjs.Text(window.lang.translate("Speeding"), "20px 'Source Sans Pro'", "#FFFFFF");
+	this.text = new cjs.Text(window.lang.translate("Speeding for this area"), "20px 'Source Sans Pro'", "#FFFFFF");
 	this.text.textAlign = "right";
 	this.text.lineHeight = 27;
 	this.text.lineWidth = 189;
@@ -485,7 +485,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:null,x:0,y:0}).wait(85).to({graphics:mask_2_graphics_85,x:105.3,y:140.8}).wait(1).to({graphics:mask_2_graphics_86,x:113,y:144.2}).wait(1).to({graphics:mask_2_graphics_87,x:120.7,y:147.6}).wait(1).to({graphics:mask_2_graphics_88,x:128.4,y:151}).wait(1).to({graphics:mask_2_graphics_89,x:136.2,y:154.4}).wait(1).to({graphics:mask_2_graphics_90,x:143.9,y:157.8}).wait(1).to({graphics:mask_2_graphics_91,x:151.6,y:161.2}).wait(1).to({graphics:mask_2_graphics_92,x:159.3,y:164.6}).wait(1).to({graphics:mask_2_graphics_93,x:167,y:168.1}).wait(1).to({graphics:mask_2_graphics_94,x:174.7,y:171.5}).wait(1).to({graphics:mask_2_graphics_95,x:182.5,y:174.9}).wait(1).to({graphics:mask_2_graphics_96,x:190.2,y:178.3}).wait(1).to({graphics:mask_2_graphics_97,x:197.9,y:181.7}).wait(1).to({graphics:mask_2_graphics_98,x:205.6,y:185.1}).wait(1).to({graphics:mask_2_graphics_99,x:213.3,y:188.5}).wait(1).to({graphics:mask_2_graphics_100,x:221,y:191.9}).wait(1).to({graphics:mask_2_graphics_101,x:228.8,y:195.3}).wait(1).to({graphics:mask_2_graphics_102,x:228.8,y:195.3}).wait(66));
 
 	// Capa_11
-	this.text_6 = new cjs.Text(window.lang.translate("Distance 16 mi"), "20px 'Source Sans Pro'", "#FFFFFF");
+	this.text_6 = new cjs.Text(window.lang.translate("16 mi Distance"), "20px 'Source Sans Pro'", "#FFFFFF");
 	this.text_6.lineHeight = 27;
 	this.text_6.lineWidth = 206;
 	this.text_6.alpha = 0.80000000;
