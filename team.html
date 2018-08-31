@@ -15,7 +15,7 @@
 <body>
 	<div class="container-fluid">
 		<header>
-			<div class="navigation-menu row">
+			<div class="navigation-menu row centered-hd extra-padding">
 				<div class="col-12 col-md-9">
 					<a href="index.html">
 						<img src="imgs/Jooycar_w@1x.svg" alt="logo jooycar" />
@@ -30,7 +30,7 @@
 			</div>
 		</header>
 
-		<section id="team" class="theteam container-fluid row">
+		<section id="team" class="theteam container-fluid row centered-hd">
 			<p class="col-12 blue-title text-left px-5" lang="en">Jooycar Team</p>
 			<p class="col-12 black-subtitle text-left px-5" lang="en">Passionate experts in technology and innovation</p>
 			<div class="row">
@@ -223,75 +223,75 @@
 				</article>
 		</section>
 
-		<footer class="footer container-fluid row">
-				<div class="col-12 col-md-5 jooycardatos">
-					<div class="row">
-						<div class="col-6">
-							<img src="imgs/imagotipo.png" width="146" height="133" alt="" />
+		<footer class="footer container-fluid row centered-hd">
+			<div class="col-12 col-md-5 jooycardatos">
+				<div class="row">
+					<div class="col-6">
+						<img src="imgs/imagotipo.png" width="146" height="133" alt="" />
+					</div>
+					<div class="col-6">
+						<div class="col-12 link-wrapper p-2">
+							<a href="team.html" class="white-link" lang="en">Team Jooycar</a>
 						</div>
-						<div class="col-6">
-							<div class="col-12 link-wrapper p-2">
-								<a href="team.html" class="white-link" lang="en">Team Jooycar</a>
-							</div>
-							<div class="col-12 link-wrapper p-2">
-								<a href="https://www.getonbrd.com/companies/jooycar" class="white-link" lang="en">Career</a>
-							</div>
-						</div>
-						<div class="col-12 py-5 white-link">
-							<a class="white-link" href="#">Usa</a> - <a class="white-link" href="#">México</a> - <a class="white-link" href="#">Colombia</a>
-							- <a class="white-link" href="#">Brazil</a> - <a class="white-link" href="#">Perú</a>
-							- <a class="white-link" href="#">Chile</a>
-						</div>
-						<div class="col-12 py-4 address">
-							<p>contact@jooycar.com</p>
-							<p lang="en">HQ: Santa Beatriz 100, office 604 Providencia,</p>
-							<p>Santiago / Chile</p>
+						<div class="col-12 link-wrapper p-2">
+							<a href="https://www.getonbrd.com/companies/jooycar" class="white-link" lang="en">Career</a>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-7 contacttitle" id="contact-form">
-					<div class="container-fluid row">
-						<div class="col-12">
-							<p class="contact-heading" lang="en">Contact Us</p>
-						</div>
-						<div class="col-12">
-							<p class="contact-sub-heading" lang="en">If you would like to know more about our services</p>
-						</div>
-						<div class="col-12 py-1">
-							<form id="contact-form-obj" method="post" action="https://api01.jooycar.com/api/v1/core/contacts/msg" role="form">
-								<div class="messages"></div>
-								<div class="form-group">
-									<label class="form-label" for="company" lang="en">Company Name</label>
-									<input type="text" class="form-control" id="company" name="company" required>
-								</div>
-								<div class="form-row">
-									<div class="form-group col-12 col-md-6">
-										<label class="form-label" for="name" lang="en">Your Name</label>
-										<input type="text" class="form-control" id="name" name="name" required>
-									</div>
-									<div class="form-group col-12 col-md-6">
-										<label class="form-label" for="email" lang="en">Email</label>
-										<input type="email" class="form-control" id="email" name="email" required>
-									</div>
-								</div>
-								<div class="form-group">
-									<label class="form-label" for="message" lang="en">Message</label>
-									<textarea class="form-control" id="message" name="message" rows="4" required></textarea>
-								</div>
-								<input type="hidden" class="form-control" id="country" name="country" value="CL">
-								<input type="hidden" class="form-control" id="type" name="type" value="contact">
-	
-								<button type="submit" class="btn btn-submit-form">
-									<span class="btn-submit-form-text" lang="en">Send</span>
-								</button>
-							</form>
-						</div>
+					<div class="col-12 py-5 white-link">
+						<a class="white-link" href="#">Usa</a> - <a class="white-link" href="#">México</a> - <a class="white-link" href="#">Colombia</a>
+						- <a class="white-link" href="#">Brazil</a> - <a class="white-link" href="#">Perú</a>
+						- <a class="white-link" href="#">Chile</a>
+					</div>
+					<div class="col-12 py-4 address">
+						<p>contact@jooycar.com</p>
+						<p lang="en">HQ: Santa Beatriz 100, office 604 Providencia,</p>
+						<p>Santiago / Chile</p>
 					</div>
 				</div>
-	
-	
-	
-			</footer>
+			</div>
+			<div class="col-12 col-md-7 contacttitle" id="contact-form">
+				<div class="container-fluid row">
+					<div class="col-12">
+						<p class="contact-heading" lang="en">Contact Us</p>
+					</div>
+					<div class="col-12">
+						<p class="contact-sub-heading" lang="en">If you would like to know more about our services</p>
+					</div>
+					<div class="col-12 py-1">
+						<form id="contact-form-obj" method="post" action="https://api01.jooycar.com/api/v1/core/contacts/msg" role="form">
+							<div class="messages"></div>
+							<div class="form-group">
+								<label class="form-label" for="company" lang="en">Company Name</label>
+								<input type="text" class="form-control" id="company" name="company" required>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-12 col-md-6">
+									<label class="form-label" for="name" lang="en">Your Name</label>
+									<input type="text" class="form-control" id="name" name="name" required>
+								</div>
+								<div class="form-group col-12 col-md-6">
+									<label class="form-label" for="email" lang="en">Email</label>
+									<input type="email" class="form-control" id="email" name="email" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="form-label" for="message" lang="en">Message</label>
+								<textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+							</div>
+							<input type="hidden" class="form-control" id="country" name="country" value="CL">
+							<input type="hidden" class="form-control" id="type" name="type" value="contact">
+
+							<button type="submit" class="btn btn-submit-form">
+								<span class="btn-submit-form-text" lang="en">Send</span>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+
+
+		</footer>
 
 
 		</div>

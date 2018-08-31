@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+@media (min-width: 1300px) {
+	.centered-hd {
+    padding-left: 12.5% !important;
+    padding-right: 12.5% !important;
+  }
+
+  .extra-padding {
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+  }
+}
+
 .container-fluid {
 	padding-right:0;
 	padding-left:0;
