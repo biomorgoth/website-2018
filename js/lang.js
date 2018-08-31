@@ -4,4 +4,7 @@ lang.init({
     defaultLang: 'en'
 });
 
-window.lang.change('es')
+$(document).ready(function() {
+    window.lang.change('es')
+});
+
