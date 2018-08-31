@@ -177,7 +177,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance.parent = this;
 	this.instance.setTransform(0,37);
 
-	this.text = new cjs.Text("Exceso de velocidad", "20px 'Source Sans Pro'", "#FFFFFF");
+	this.text = new cjs.Text(window.lang.translate("Speeding"), "20px 'Source Sans Pro'", "#FFFFFF");
 	this.text.textAlign = "right";
 	this.text.lineHeight = 27;
 	this.text.lineWidth = 189;
@@ -185,7 +185,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.text.parent = this;
 	this.text.setTransform(180.6,36.1,0.819,0.819);
 
-	this.text_1 = new cjs.Text("140 km/h", "32px 'Source Sans Pro'", "#FFFFFF");
+	this.text_1 = new cjs.Text(window.lang.translate("102 mph"), "32px 'Source Sans Pro'", "#FFFFFF");
 	this.text_1.lineHeight = 42;
 	this.text_1.lineWidth = 133;
 	this.text_1.alpha = 0.80000000;
@@ -315,7 +315,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.text.parent = this;
 	this.text.setTransform(285.4,68.6,0.819,0.819);
 
-	this.text_1 = new cjs.Text("Puntaje", "21px 'Source Sans Pro'", "#FFFFFF");
+	this.text_1 = new cjs.Text(window.lang.translate("Score"), "21px 'Source Sans Pro'", "#FFFFFF");
 	this.text_1.textAlign = "center";
 	this.text_1.lineHeight = 28;
 	this.text_1.lineWidth = 96;
@@ -323,21 +323,21 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.text_1.parent = this;
 	this.text_1.setTransform(303.7,50.3,0.819,0.819);
 
-	this.text_2 = new cjs.Text("Viaje en curso", "21px 'Source Sans Pro'", "#FFFFFF");
+	this.text_2 = new cjs.Text(window.lang.translate("Trip in progress"), "21px 'Source Sans Pro'", "#FFFFFF");
 	this.text_2.lineHeight = 28;
 	this.text_2.lineWidth = 165;
 	this.text_2.alpha = 0.49803922;
 	this.text_2.parent = this;
 	this.text_2.setTransform(75.1,48.5,0.819,0.819);
 
-	this.text_3 = new cjs.Text("2:30 pm", "25px 'Source Sans Pro'", "#FFFFFF");
+	this.text_3 = new cjs.Text(window.lang.translate("2:30 pm"), "25px 'Source Sans Pro'", "#FFFFFF");
 	this.text_3.lineHeight = 33;
 	this.text_3.lineWidth = 86;
 	this.text_3.alpha = 0.80000000;
 	this.text_3.parent = this;
 	this.text_3.setTransform(72.2,98.8,0.819,0.819);
 
-	this.text_4 = new cjs.Text("Abr 4", "38px 'Source Sans Pro'", "#FFFFFF");
+	this.text_4 = new cjs.Text(window.lang.translate("Apr 4"), "38px 'Source Sans Pro'", "#FFFFFF");
 	this.text_4.lineHeight = 50;
 	this.text_4.lineWidth = 112;
 	this.text_4.alpha = 0.80000000;
@@ -392,7 +392,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(139).to({graphics:mask_graphics_139,x:143.6,y:163.7}).wait(1).to({graphics:mask_graphics_140,x:145.6,y:163.7}).wait(1).to({graphics:mask_graphics_141,x:147.6,y:163.7}).wait(1).to({graphics:mask_graphics_142,x:149.6,y:163.7}).wait(1).to({graphics:mask_graphics_143,x:151.7,y:163.7}).wait(1).to({graphics:mask_graphics_144,x:153.7,y:163.7}).wait(1).to({graphics:mask_graphics_145,x:155.7,y:163.7}).wait(1).to({graphics:mask_graphics_146,x:157.8,y:163.7}).wait(1).to({graphics:mask_graphics_147,x:159.8,y:163.7}).wait(1).to({graphics:mask_graphics_148,x:161.8,y:163.7}).wait(1).to({graphics:mask_graphics_149,x:163.9,y:163.7}).wait(1).to({graphics:mask_graphics_150,x:165.9,y:163.7}).wait(1).to({graphics:mask_graphics_151,x:167.9,y:163.7}).wait(1).to({graphics:mask_graphics_152,x:170,y:163.7}).wait(1).to({graphics:mask_graphics_153,x:172,y:163.7}).wait(1).to({graphics:mask_graphics_154,x:174,y:163.7}).wait(1).to({graphics:mask_graphics_155,x:176.1,y:163.7}).wait(1).to({graphics:mask_graphics_156,x:178.1,y:163.7}).wait(1).to({graphics:mask_graphics_157,x:180.1,y:163.7}).wait(1).to({graphics:mask_graphics_158,x:182.2,y:163.7}).wait(1).to({graphics:mask_graphics_159,x:184.2,y:163.7}).wait(1).to({graphics:mask_graphics_160,x:186.2,y:163.7}).wait(1).to({graphics:mask_graphics_161,x:188.3,y:163.7}).wait(1).to({graphics:mask_graphics_162,x:190.3,y:163.7}).wait(1).to({graphics:mask_graphics_163,x:192.3,y:163.7}).wait(1).to({graphics:mask_graphics_164,x:194.4,y:163.7}).wait(1).to({graphics:mask_graphics_165,x:196.4,y:163.7}).wait(1).to({graphics:mask_graphics_166,x:198.4,y:163.7}).wait(1).to({graphics:mask_graphics_167,x:200.4,y:163.7}).wait(1));
 
 	// Capa_5
-	this.text_5 = new cjs.Text("Giro brusco", "20px 'Source Sans Pro'", "#FFFFFF");
+	this.text_5 = new cjs.Text(window.lang.translate("Hard turn"), "20px 'Source Sans Pro'", "#FFFFFF");
 	this.text_5.lineHeight = 27;
 	this.text_5.lineWidth = 112;
 	this.text_5.alpha = 0.80000000;
@@ -485,7 +485,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:null,x:0,y:0}).wait(85).to({graphics:mask_2_graphics_85,x:105.3,y:140.8}).wait(1).to({graphics:mask_2_graphics_86,x:113,y:144.2}).wait(1).to({graphics:mask_2_graphics_87,x:120.7,y:147.6}).wait(1).to({graphics:mask_2_graphics_88,x:128.4,y:151}).wait(1).to({graphics:mask_2_graphics_89,x:136.2,y:154.4}).wait(1).to({graphics:mask_2_graphics_90,x:143.9,y:157.8}).wait(1).to({graphics:mask_2_graphics_91,x:151.6,y:161.2}).wait(1).to({graphics:mask_2_graphics_92,x:159.3,y:164.6}).wait(1).to({graphics:mask_2_graphics_93,x:167,y:168.1}).wait(1).to({graphics:mask_2_graphics_94,x:174.7,y:171.5}).wait(1).to({graphics:mask_2_graphics_95,x:182.5,y:174.9}).wait(1).to({graphics:mask_2_graphics_96,x:190.2,y:178.3}).wait(1).to({graphics:mask_2_graphics_97,x:197.9,y:181.7}).wait(1).to({graphics:mask_2_graphics_98,x:205.6,y:185.1}).wait(1).to({graphics:mask_2_graphics_99,x:213.3,y:188.5}).wait(1).to({graphics:mask_2_graphics_100,x:221,y:191.9}).wait(1).to({graphics:mask_2_graphics_101,x:228.8,y:195.3}).wait(1).to({graphics:mask_2_graphics_102,x:228.8,y:195.3}).wait(66));
 
 	// Capa_11
-	this.text_6 = new cjs.Text("Distancia 25 km", "20px 'Source Sans Pro'", "#FFFFFF");
+	this.text_6 = new cjs.Text(window.lang.translate("Distance 16 mi"), "20px 'Source Sans Pro'", "#FFFFFF");
 	this.text_6.lineHeight = 27;
 	this.text_6.lineWidth = 206;
 	this.text_6.alpha = 0.80000000;
