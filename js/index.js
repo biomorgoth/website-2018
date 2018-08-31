@@ -1,3 +1,25 @@
+var defaultLang = function(lang) {
+  return navigator.languages
+    .map(function(i) { return i.substr(0, 2); })
+    .filter(function(i) { return ["es", "en", "pt"].indexOf(i) >= 0; })[0] || lang || "en"
+}
+
+var availableDomains = {
+  "jooycar.com": { country: null, lang: defaultLang("es") },
+  "usa.jooycar.com": { country: "US", lang: "en" },
+  "jooycar.mx": { country: "MX", lang: "es" },
+  "jooycar.com.co": { country: "CO", lang: "es" },
+  "jooycar.com.br": { country: "BR", lang: "pt" },
+  "jooycar.com.pe": { country: "PE", lang: "es" },
+  "jooycar.cl": { country: "CL", lang: "es" }
+}
+
+var getDomain = function() {
+  return availableDomains[window.location.hostname] || availableDomains["jooycar.com"]
+}
+
+var currentDomain = getDomain();
+
 $(function () {
 
   function ConvertFormToJSON(form) {
@@ -20,6 +42,7 @@ $(function () {
     // if the validator does not prevent form submit
     if (!e.isDefaultPrevented()) {
       var jsonObj = ConvertFormToJSON(this);
+      jsonObj.country = currentDomain.country;
       var url = "https://api01.jooycar.com/api/v1/core/contacts/msg"; // changes for real data
       // POST values in the background the the script URL
       $.ajax({

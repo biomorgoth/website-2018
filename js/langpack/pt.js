@@ -1,4 +1,4 @@
-Lang.prototype.pack.es = {
+Lang.prototype.pack.pt = {
     "token": {
         "Developers": "Desarrolladores",
         "http://docs.jooycar.com": "http://docs.jooycar.com",

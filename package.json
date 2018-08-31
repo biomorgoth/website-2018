@@ -1,0 +1,19 @@
+{
+    "name": "website",
+    "version": "1.0.0",
+    "scripts": {
+      "updatecl" : "aws s3 sync . s3://jooycar.cl --exclude \".*\" --exclude \"*.DS_Store\" --exclude \"package.json\";",
+      "updatemx" : "aws s3 sync . s3://jooycar.mx --exclude \".*\" --exclude \"*.DS_Store\" --exclude \"package.json\";",
+      "updateco" : "aws s3 sync . s3://jooycar.co --exclude \".*\" --exclude \"*.DS_Store\" --exclude \"package.json\";",
+      "updatepe" : "aws s3 sync . s3://jooycar.com.pe --exclude \".*\" --exclude \"*.DS_Store\" --exclude \"package.json\";",
+      "updatebr" : "aws s3 sync . s3://jooycar.com.br --exclude \".*\" --exclude \"*.DS_Store\" --exclude \"package.json\";",
+      "updateusa" : "aws s3 sync . s3://usa.jooycar.com --exclude \".*\" --exclude \"*.DS_Store\" --exclude \"package.json\";",
+      "updatecom" : "aws s3 sync . s3://jooycar.com --exclude \".*\" --exclude \"*.DS_Store\" --exclude \"package.json\";",
+      "updateall" : " npm run updatecl && npm run updatemx && npm run updateco && npm run updatepe && npm run updatebr && npm run updateusa && npm run updatecom"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@gitlab.com:jooycar/website-2018.git"
+    }
+  }
+  
