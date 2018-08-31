@@ -20,7 +20,20 @@ var getDomain = function() {
 
 var currentDomain = getDomain();
 
+function openInNewTab(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
+
 $(function () {
+
+  $('#collapseNews').on('hide.bs.collapse', function () {
+    $('#collapseText').text('Mostrar Más');
+  })
+
+  $('#collapseNews').on('show.bs.collapse', function () {
+    $('#collapseText').text('Mostrar Menos');
+  })
 
   function ConvertFormToJSON(form) {
     var array = jQuery(form).serializeArray();

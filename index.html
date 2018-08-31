@@ -149,7 +149,7 @@
 
 		<section class="hablan container-fluid row centered-hd">
 			<p class="col-12 black-title" lang="en">THEY ARE TALKING ABOUT US</p>
-			<div class="col-12 col-md-4 quote-card">
+			<div class="col-12 col-md-4 quote-card" onclick="openInNewTab('http://www.smartbrief.com/branded/D40C5D5F-372F-450F-8AF8-B4574B9A50B1/F017A38F-8120-421D-B200-532E5277CA38');">
 				<div class="col-12">
 					<div class="card cuadro">
 						<div class="card-body align-items-center d-flex justify-content-center">
@@ -162,7 +162,7 @@
 				</div>
 			</div>
 
-			<div class="col-12 col-md-4 quote-card">
+			<div class="col-12 col-md-4 quote-card" onclick="openInNewTab('https://www.forbes.com/sites/alanamatos/2017/11/08/how-this-startup-is-making-roads-safer-through-the-power-of-iot/#682a96ce536c');">
 				<div class="col-12">
 					<div class="card cuadro">
 						<div class="card-body align-items-center d-flex justify-content-center">
@@ -175,12 +175,12 @@
 				</div>
 			</div>
 
-			<div class="col-12 col-md-4 quote-card">
+			<div class="col-12 col-md-4 quote-card" onclick="openInNewTab('www.test.com');">
 				<div class="col-12">
 					<div class="card cuadro">
 						<div class="card-body align-items-center d-flex justify-content-center">
 							<blockquote class="blockquote mb-0">
-								<p class="client-quote" lang="en">“Jooycar es pionera en Latinoamérica y está impulsando las polizas de auto conectado en nuestro país”</p>
+								<p class="client-quote" lang="es">“Jooycar es pionera en Latinoamérica y está impulsando las polizas de auto conectado en nuestro país”</p>
 							</blockquote>
 						</div>
 						<img class="card-img-bottom padded-logo" src="imgs/hoyxhoy-logo.png" alt="SmartBrief logo" style="width: 66px; height: 66px;">
@@ -188,17 +188,56 @@
 				</div>
 			</div>
 
-			<!--
 			<div class="col-12 col-md-4 offset-md-4 text-center">
 				<div class="col-12 p-3">
-					<a class="btn btn-normal" href="/clients">
-						<span class="btn-normal-text">
+					<button class="btn btn-normal" type="button" data-toggle="collapse" data-target="#collapseNews" aria-expanded="false" aria-controls="collapseNews">
+						<span class="btn-normal-text" id="collapseText">
 							Mostrar Más
 						</span>
-					</a>
+					</button>
 				</div>
 			</div>
-			-->
+
+			<div class="collapse col-12 container-fluid row" id="collapseNews">
+				<div class="col-12 col-md-4 quote-card" onclick="openInNewTab('http://impresa.elmercurio.com/Pages/NewsDetail.aspx?dt=24-10-2016 0:00:00&NewsID=442661&dtB=29-03-2017 0:00:00&BodyID=2&PaginaId=8');">
+					<div class="col-12">
+						<div class="card cuadro">
+							<div class="card-body align-items-center d-flex justify-content-center">
+								<blockquote class="blockquote mb-0">
+									<p class="client-quote" lang="es">“Jooycar, la plataforma que "hace inteligentes" a los automóviles convencionales”</p>
+								</blockquote>
+							</div>
+							<img class="card-img-bottom  padded-logo" src="imgs/elmercurio-logo.png" alt="Mercurio logo"  style="width: 240px; height: 24px; margin-bottom: 25px;">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 quote-card" onclick="openInNewTab('www.test.com');">
+					<div class="col-12">
+						<div class="card cuadro">
+							<div class="card-body align-items-center d-flex justify-content-center">
+								<blockquote class="blockquote mb-0">
+									<p class="client-quote" lang="es">“Jooycar, el negocio de las pólizas a medida”</p>
+								</blockquote>
+							</div>
+							<img class="card-img-bottom padded-logo" src="imgs/capital-logo.png" alt="Capital logo" style="width: 142px; height: 38px; margin-bottom: 7px;">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 quote-card" onclick="openInNewTab('www.test.com');">
+					<div class="col-12">
+						<div class="card cuadro">
+							<div class="card-body align-items-center d-flex justify-content-center">
+								<blockquote class="blockquote mb-0">
+									<p class="client-quote" lang="es">“Jooycar lanza su SDK para seguir impulsando el seguro de auto conectado en la región”</p>
+								</blockquote>
+							</div>
+							<img class="card-img-bottom padded-logo" src="imgs/emprende-logo.png" alt="Emprende logo" style="width: 196px; height: 71px;">
+						</div>
+					</div>
+				</div>
+			</div>
 
 		</section>
 

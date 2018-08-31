@@ -185,6 +185,7 @@ body {
 
 .quote-card {
   padding-bottom: 10px;
+  cursor: pointer;
 }
 
 .btn-normal {
