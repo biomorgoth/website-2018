@@ -169,7 +169,7 @@ body {
   height: 290px;
   border-radius: 8px;
   background-color: #ffffff;
-  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.08);  
 }
 
 .client-quote {
@@ -181,6 +181,14 @@ body {
   letter-spacing: 0.3px;
   text-align: center;
   color: #818181;
+}
+
+.cuadro:hover {
+  border: solid 2px #63a4ff;
+}
+
+.cuadro:hover .client-quote {
+  color: #5086d2;
 }
 
 .quote-card {
@@ -423,6 +431,10 @@ body {
   background-color: #ffffff;
   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.08);
   border-radius: 50%;
+}
+
+.mask:hover {
+  border: solid 2px #63a4ff;
 }
 
 .you {
