@@ -43,7 +43,7 @@ Lang.prototype.pack.pt = {
             "Leverage vehicle and driving data to create new business models": "",
             "Act proactively to provide support the client in case of failures and breakdowns": "",
 
-        "THEY ARE TALKING ABOUT US": "HABLAN DE NOSOTROS",
+        "They are talking about us": "Hablan de nosotros",
         "“Jooycar es pionera en Latinoamérica y está impulsando las polizas de auto conectado en nuestro país”": "“Jooycar es pionera en Latinoamérica y está impulsando las polizas de auto conectado en nuestro país”",
         "“After only three years, they’ve gained a strong reputation as one of the most innovative IoT products in the market”": "“After only three years, they’ve gained a strong reputation as one of the most innovative IoT products in the market”",
         "“Jooycar looks to enhance car-insurance industry”": "“Jooycar looks to enhance car-insurance industry”",

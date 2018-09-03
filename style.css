@@ -553,10 +553,10 @@ body {
 
 @media (min-width: 768px) {
 	.contacttitle {
-		padding: 19px 42px 11px 42px;
+    padding: 48px 42px 11px 42px;
 	}
 	.jooycardatos {
-		padding: 19px 42px 11px 42px;
+		padding: 48px 42px 11px 42px;
 	}
 	.btn-submit-form {
 		width: 50%;
