@@ -81,6 +81,10 @@
   color: #ffffff;
 }
 
+.heading * {
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
 .sub-heading {
   font-family: 'Palanquin Dark', sans-serif;
   font-size: 24px;

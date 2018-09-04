@@ -54,6 +54,7 @@ Lang.prototype.pack.es = {
         "They are already using Jooycar:": "Ellos ya están usando Jooycar:",
 
         "Team Jooycar": "Equipo Jooycar",
+        "Team": "Equipo",
         "team.html": "team.html",
         "Career": "Trabaja con nosotros",
         "https://www.getonbrd.com/companies/jooycar": "https://www.getonbrd.com/companies/jooycar",
