@@ -136,7 +136,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.text.parent = this;
 	this.text.setTransform(214.8,21.7,0.819,0.819);
 
-	this.text_1 = new cjs.Text("Score", "21px 'Source Sans Pro'", "#FFFFFF");
+	this.text_1 = new cjs.Text("User Score", "21px 'Source Sans Pro'", "#FFFFFF");
 	this.text_1.lineHeight = 28;
 	this.text_1.lineWidth = 52;
 	this.text_1.alpha = 0.49803922;
@@ -315,7 +315,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.text.parent = this;
 	this.text.setTransform(285.4,68.6,0.819,0.819);
 
-	this.text_1 = new cjs.Text(window.lang.translate("Score"), "21px 'Source Sans Pro'", "#FFFFFF");
+	this.text_1 = new cjs.Text(window.lang.translate("User Score"), "21px 'Source Sans Pro'", "#FFFFFF");
 	this.text_1.textAlign = "center";
 	this.text_1.lineHeight = 28;
 	this.text_1.lineWidth = 96;
