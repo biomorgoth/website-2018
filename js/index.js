@@ -71,6 +71,8 @@ $(function () {
           if (e.status === 200 || e.status === 201) {
             messageAlert = "alert-success";
             messageText = "We will contact you soon!"
+          } else if (e.status === 422) {
+            messageText = "Please fill in all the required fields"
           }
 
           // let's compose Bootstrap alert box HTML
